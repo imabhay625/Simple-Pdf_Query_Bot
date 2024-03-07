@@ -12,7 +12,7 @@ Overall, it's a streamlined tool for extracting insights from research papers an
 
 
 
-Additionally, the script handles a specific error regarding deserialization, ensuring smooth execution. If users encounter this error, they can expect a prompt solution. Your feedback and suggestions for improvement are welcomed. Thank you for your interest!
+Additionally, the script has a specific error regarding deserialization, ensuring smooth execution. If users encounter this error, they can expect a prompt solution. Your feedback and suggestions for improvement are welcomed. Thank you for your interest!
 
 
 Error : "ValueError: The de-serialization relies loading a pickle file. Pickle files can be modified to deliver a malicious payload that results in execution of arbitrary code on your machine.You will need to set `allow_dangerous_deserialization` to `True` to enable deserialization. If you do this, make sure that you trust the source of the data. For example, if you are loading a file that you created, and no that no one else has modified the file, then this is safe to do. Do not set this to `True` if you are loading a file from an untrusted source (e.g., some random site on the internet.)."
